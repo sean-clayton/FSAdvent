@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Advent.Y2019", "Advent.Y2019\Advent.Y2019.fsproj", "{6A446998-0590-4999-B6DD-5F471DB23BE0}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Advent.Common", "Advent.Common\Advent.Common.fsproj", "{0943C079-70B4-4B1D-A67D-6DBF68747849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A446998-0590-4999-B6DD-5F471DB23BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A446998-0590-4999-B6DD-5F471DB23BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A446998-0590-4999-B6DD-5F471DB23BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A446998-0590-4999-B6DD-5F471DB23BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0943C079-70B4-4B1D-A67D-6DBF68747849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0943C079-70B4-4B1D-A67D-6DBF68747849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0943C079-70B4-4B1D-A67D-6DBF68747849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0943C079-70B4-4B1D-A67D-6DBF68747849}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
