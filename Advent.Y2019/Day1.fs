@@ -1,7 +1,5 @@
 ﻿namespace Advent.Y2019
 
-open System
-open System.IO
 open Advent.Common.Project
 
 module Day1 =

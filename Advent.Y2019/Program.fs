@@ -1,6 +1,5 @@
 ﻿// Learn more about F# at http://fsharp.org
 
-open System
 open Advent.Y2019
 
 [<EntryPoint>]
