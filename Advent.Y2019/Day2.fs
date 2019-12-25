@@ -7,9 +7,6 @@ module Day2 =
 
     let input = parseFileLinesBy "../InputFiles/Day2.txt" (fun s -> s.Split(',') |> Array.map int) |> Seq.head
 
-    let performOperation f x y resultIndex (program: Program) =
-        program.[resultIndex] <- f x y
-
     let rec executeProgram index (program: Program) =
         let operation = program.[index]
         let x = program.[program.[index + 1]]
@@ -19,10 +16,10 @@ module Day2 =
 
         match operation with
         | 1 ->
-            performOperation (+) x y resultIndex program
+            program.[resultIndex] <- x + y
             executeProgram nextIndex program
         | 2 ->
-            performOperation (*) x y resultIndex program
+            program.[resultIndex] <- x * y
             executeProgram nextIndex program
         | _ -> ()
 
